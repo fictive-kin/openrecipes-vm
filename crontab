@@ -1,0 +1,4 @@
+0 0 * * * ~/cronjobs/daily_feed_spiders.sh
+0 1 * * * ~/cronjobs/daily_mongodump.sh
+0 2 * * * ~/cronjobs/daily_upload_recipeitems.sh
+0 0 * * 1 ~/cronjobs/weekly_site_spiders.sh
